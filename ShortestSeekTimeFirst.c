@@ -7,7 +7,7 @@ int queue[100],t[100],head,seek=0,n,i,j,temp;
 float avg;
 printf("Enter the size of Queue\t");
 scanf("%d",&n);
-printf("Enter the Queue\t");
+printf("Enter the Queue\t"); 
 for(i=0;i<n;i++)
 {
 scanf("%d",&queue[i]);
