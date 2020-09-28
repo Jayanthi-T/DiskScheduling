@@ -9,14 +9,14 @@ printf("Enter the size of Queue\t");
 scanf("%d",&n);
 printf("Enter the Queue\t"); 
 for(i=0;i<n;i++)
-{
+{ 
 scanf("%d",&queue[i]);
 }
 printf("Enter the initial head position\t");
 scanf("%d",&head);
 for(i=1;i<n;i++)
    t[i]=abs(head-queue[i]);
-for(i=0;i<n;i++)
+for(i=0;i<n;i++) 
   {
     for(j=i+1;j<n;j++)
     {
