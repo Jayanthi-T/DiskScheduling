@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<math.h>
 int main()
-{
+{ 
 int queue[100],t[100],head,seek=0,n,i,j,temp;
 float avg;
 printf("Enter the size of Queue\t");
